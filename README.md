@@ -1,8 +1,8 @@
 # IoT-project-2023
-IoT project code
+Description: IoT project code. This is the full code for the Smart Door Bell IoT LNU Project.
 
 
-Code:
+
 import machine
 from machine import Pin, PWM, ADC #library import and define pin
 from utime import sleep
