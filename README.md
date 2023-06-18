@@ -2,12 +2,12 @@
 Description: IoT project code. This is the full code for the Smart Door Bell IoT LNU Project.
 
 
-
+```
 import machine
 from machine import Pin, PWM, ADC #library import and define pin
 from utime import sleep
 import time #library import
-import dht #temperatur sensor
+import dht #temperatur sensor 
 
 buzzer = PWM(Pin(26)) #define buzzer 
 tempSensor = dht.DHT11(machine.Pin(27))     # DHT11 Constructor #definining dht
