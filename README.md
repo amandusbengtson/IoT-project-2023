@@ -15,7 +15,7 @@ import random
 from secrets import secrets
 from time import sleep
 
-DELAY = 5  # Delay in seconds
+DELAY = 2  # Delay in seconds
 
 # Function for WiFi connection
 def connect():
@@ -226,6 +226,6 @@ while True: # While loop
                 print("Temperature is {} degrees Celsius and Humidity is {}%".format(temperature, humidity))
         except Exception as error:
                 print("Exception occurred", error)
-        time.sleep(2)main.md…]()
+        time.sleep(2)
 
 ```
