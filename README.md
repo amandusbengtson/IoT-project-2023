@@ -3,7 +3,7 @@ Description: IoT project code. This is the full code for the Smart Door Bell IoT
 
 ## Project Code
 
-```{include} {python}
+```{include}
 import machine
 from machine import Pin, PWM, ADC #library import and define pin
 from utime import sleep
